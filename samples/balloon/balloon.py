@@ -180,12 +180,12 @@ def train(model):
     """Train the model."""
     # Training dataset.
     dataset_train = BalloonDataset()
-    dataset_train.load_balloon(args.dataset, "train")
+    dataset_train.load_balloon(/content/drive/My Drive/balloon, "train")
     dataset_train.prepare()
 
     # Validation dataset
     dataset_val = BalloonDataset()
-    dataset_val.load_balloon(args.dataset, "val")
+    dataset_val.load_balloon(/content/drive/My Drive/balloon, "val")
     dataset_val.prepare()
 
     # *** This training schedule is an example. Update to your needs ***
